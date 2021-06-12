@@ -42,8 +42,8 @@ start = time()
 delta_ping = time() - start
 
 PING_MSG = f"""🏋🏻 ping🤸🏻‍♀️: `{delta_ping * 1000:.3f} ms`
-☬ **[DrakulaBots](https://t.me/drakulabots)** Tərəfindən hazırlanıb.🤖🔧
-☬ **[DarkLegionChat](https://t.me/darklegionchat)** Chat qrupumuz✅"""
+☬ **[Drakula](https://t.me/Drakuladi)** Tərəfindən hazırlanıb.🤖🔧
+☬ **[DrakulaSohbet](https://t.me/drakulasohbet)** Chat qrupumuz✅"""
 
 @Client.on_message(filters.text
                    & self_or_contact_filter
